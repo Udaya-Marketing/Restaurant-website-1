@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #fff8f0;
+  --cream-deep: #f7ecdf;
+  --ink: #17172d;
+  --muted: #716b65;
+  --orange: #f26a1b;
+  --green: #58744e;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-cream-deep: var(--cream-deep);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-orange: var(--orange);
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-instrument);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-instrument), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+::selection {
+  background: #f26a1b;
+  color: white;
+}
+
+.page-shell {
+  margin-inline: auto;
+  width: min(100% - 2.5rem, 1200px);
+}
+
+.display-heading {
+  font-family: var(--font-fraunces), Georgia, serif;
+  letter-spacing: -0.035em;
+  line-height: 1.04;
+  text-wrap: balance;
+}
+
+.eyebrow {
+  color: var(--orange);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.section-space {
+  padding-block: clamp(4.5rem, 9vw, 8rem);
+}
+
+.soft-shadow {
+  box-shadow: 0 18px 55px rgb(65 42 21 / 8%);
+}
+
+.focus-ring:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 3px;
+}
+
+.hero-glow {
+  background:
+    radial-gradient(ellipse at 75% 48%, rgb(244 193 135 / 36%), transparent 36%),
+    radial-gradient(ellipse at 12% 6%, rgb(255 230 193 / 36%), transparent 31%);
+}
+
+.float-gently {
+  animation: float-gently 5s ease-in-out infinite;
+}
+
+@keyframes float-gently {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-11px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .page-shell {
+    width: min(100% - 4rem, 1200px);
+  }
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#FFF8F0"/>
+  <circle cx="902" cy="315" r="238" fill="#17172D"/>
+  <circle cx="902" cy="315" r="200" stroke="#F26A1B" stroke-opacity=".5" stroke-width="2"/>
+  <path fill="#E6A044" d="M725 260c9-54 68-89 177-89s168 35 177 89H725Z"/>
+  <path fill="#F2C36E" d="M722 263h363v21H722z"/>
+  <path fill="#5A3126" d="M717 292c0-13 17-22 39-22h304c22 0 39 9 39 22v15H717v-15Z"/>
+  <path fill="#FFD246" d="m731 307 354 2-21 24-35-10-33 14-44-17-40 14-38-18-40 14-53-25 4 0h-54v2Z"/>
+  <path fill="#487249" d="M728 340c28-16 46-5 69 1 23 5 30-10 54-5 24 6 31 18 55 11 24-6 38-1 58 9 23 10 37-8 60-5 22 5 38 19 61 8l15-7-5 28H730l-2-40Z"/>
+  <path fill="#6A3928" d="M726 376c19-15 45-8 67-2 23 7 37-11 59-6 23 5 42 13 64 8 27-6 41-10 67 1 22 8 44-5 67-1 22 5 35 12 55 10l-2 32c-8 16-33 22-67 22H798c-40 0-68-10-75-28l3-36Z"/>
+  <text x="78" y="255" fill="#14142B" font-family="Georgia,serif" font-size="82" font-weight="700">Goodfire</text>
+  <text x="82" y="320" fill="#F26A1B" font-family="Arial,sans-serif" font-size="27" letter-spacing="7">BURGER CO. · AUSTIN, TX</text>
+  <text x="82" y="388" fill="#635E58" font-family="Arial,sans-serif" font-size="25">A little fire. A lot of flavor.</text>
+</svg>
